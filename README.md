@@ -1,29 +1,50 @@
-# SCALA AI OS — Industry Resources
+# SCALA Resources — AI Business Software Guides
 
-Free guides on AI-powered business software for 20 industries.
+**Practical guides on AI-powered business software for 20 industries.**
 
-**Live site:** [https://alessandro114.github.io/scala-resources](https://alessandro114.github.io/scala-resources)
+Each guide covers the key challenges, must-have features, and implementation strategies for adopting AI in a specific vertical. Written for business owners and operators evaluating AI solutions.
 
-**Main product:** [get-scala.com](https://get-scala.com)
+**[Browse all guides](https://alessandro114.github.io/scala-resources)** | **[S.C.A.L.A. AI OS](https://get-scala.com)** | **[Free Company Score](https://score.get-scala.com)**
 
-## Industries Covered
-- **AdOS** — Advertising
-- **StudioOS** — Architecture & Engineering
-- **MotorOS** — Auto Dealers
-- **BeautyOS** — Beauty & Wellness
-- **CleanOS** — Cleaning Services
-- **LandIQ** — Construction & Development
-- **ServiceOS** — Facility Management
-- **FranchiseOS** — Franchise Networks
-- **PraxisOS** — Law & Professional Studios
-- **AgencyOS** — Marketing Agencies
-- **DermalyOS** — Medical Clinics
-- **NetworkOS** — Network Marketing
-- **ProjectOS** — Project Management
-- **TenderOS** — Public Tenders
-- **PropertyOS** — Real Estate
-- **ReputationOS** — Reputation Management
-- **DineOS** — Restaurant Management
-- **ShopOS** — Retail
-- **TravelOS** — Travel Agencies
-- **WellnessOS** — Wellness & Fitness
+---
+
+## Industry Guides
+
+| Vertical | Industry | Guide |
+|----------|----------|-------|
+| **DineOS** | Restaurant Management | [Read](https://alessandro114.github.io/scala-resources/dineos.html) |
+| **PropertyOS** | Real Estate | [Read](https://alessandro114.github.io/scala-resources/propertyos.html) |
+| **BeautyOS** | Beauty & Wellness | [Read](https://alessandro114.github.io/scala-resources/beautyos.html) |
+| **MotorOS** | Auto Dealers | [Read](https://alessandro114.github.io/scala-resources/motoros.html) |
+| **WellnessOS** | Wellness & Fitness | [Read](https://alessandro114.github.io/scala-resources/wellnessos.html) |
+| **PraxisOS** | Law & Professional Studios | [Read](https://alessandro114.github.io/scala-resources/praxisos.html) |
+| **ShopOS** | Retail | [Read](https://alessandro114.github.io/scala-resources/shopos.html) |
+| **AgencyOS** | Marketing Agencies | [Read](https://alessandro114.github.io/scala-resources/agencyos.html) |
+| **StudioOS** | Architecture & Engineering | [Read](https://alessandro114.github.io/scala-resources/studioos.html) |
+| **CleanOS** | Cleaning Services | [Read](https://alessandro114.github.io/scala-resources/cleanos.html) |
+| **TravelOS** | Travel Agencies | [Read](https://alessandro114.github.io/scala-resources/travelos.html) |
+| **DermalyOS** | Medical Clinics | [Read](https://alessandro114.github.io/scala-resources/dermalyos.html) |
+| **FranchiseOS** | Franchise Networks | [Read](https://alessandro114.github.io/scala-resources/franchise.html) |
+| **LandIQ** | Construction & Development | [Read](https://alessandro114.github.io/scala-resources/landiq.html) |
+| **ServiceOS** | Facility Management | [Read](https://alessandro114.github.io/scala-resources/serviceos.html) |
+| **NetworkOS** | Network Marketing | [Read](https://alessandro114.github.io/scala-resources/networkos.html) |
+| **ProjectOS** | Project Management | [Read](https://alessandro114.github.io/scala-resources/projectos.html) |
+| **ReputationOS** | Reputation Management | [Read](https://alessandro114.github.io/scala-resources/reputationos.html) |
+| **AdOS** | Advertising | [Read](https://alessandro114.github.io/scala-resources/ados.html) |
+| **TenderOS** | Public Tenders | [Read](https://alessandro114.github.io/scala-resources/tenderos.html) |
+
+---
+
+## About SCALA
+
+S.C.A.L.A. is an enterprise AI operating system that serves 20 industry verticals. Each vertical includes CRM, AI assistant (SARA), workflow automation, financial analysis, and industry-specific tools.
+
+- **Platform**: [get-scala.com](https://get-scala.com)
+- **Free Company Score**: [score.get-scala.com](https://score.get-scala.com) — financial health data on 250M+ companies
+- **Open Source**: [SARA](https://github.com/Alessandro114/sara) (WhatsApp AI agent) | [LandIQ](https://github.com/Alessandro114/landiq) (RE feasibility agent) | [MCP Server](https://github.com/Alessandro114/scala-mcp-server) (Claude/ChatGPT integration)
+
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
