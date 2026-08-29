@@ -1,0 +1,44 @@
+name: CI
+
+# Venti pagine HTML pubbliche, una per verticale, e nessuna verifica.
+#
+# Su un sito statico il difetto che capita davvero non e un errore di
+# compilazione: e un link che punta a una pagina rinominata. Non rompe niente
+# in modo rumoroso — la pagina si apre, il visitatore clicca, arriva a un 404 —
+# ed e proprio per questo che nessuno se ne accorge.
+#
+# Questo controllo verifica che ogni link interno .html punti a una pagina che
+# esiste davvero in questo repository.
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+permissions: { contents: read }
+
+jobs:
+  link:
+    name: Link interni
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ogni link interno porta a una pagina che esiste
+        run: |
+          python3 - <<'PY'
+          import re, os, glob, sys
+          pagine = set(os.path.basename(p) for p in glob.glob('*.html'))
+          rotti = []
+          for p in glob.glob('*.html'):
+              testo = open(p, encoding='utf-8', errors='replace').read()
+              for href in re.findall(r'href="([^"#?:]+\.html)"', testo):
+                  if os.path.basename(href) not in pagine:
+                      rotti.append((p, href))
+          print(f"pagine: {len(pagine)}  link interni: controllati")
+          if rotti:
+              for p, h in rotti:
+                  print(f"::error file={p}::link interno rotto: {h}")
+              sys.exit(1)
+          print("nessun link interno rotto")
+          PY
