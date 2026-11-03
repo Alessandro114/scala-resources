@@ -40,7 +40,7 @@ Each guide covers the key challenges, must-have features, and implementation str
 S.C.A.L.A. is an enterprise AI operating system that serves 20 industry verticals. Each vertical includes CRM, AI assistant (SARA), workflow automation, financial analysis, and industry-specific tools.
 
 - **Platform**: [get-scala.com](https://get-scala.com)
-- **Free Company Score**: [score.get-scala.com](https://score.get-scala.com) — financial health data on 249M+ companies
+- **Free Company Score**: [score.get-scala.com](https://score.get-scala.com) — company records (249M+), with financial health data where available
 - **Open Source**: [SARA](https://github.com/Alessandro114/sara) (WhatsApp AI agent) | [LandIQ](https://github.com/Alessandro114/landiq) (RE feasibility agent) | [MCP Server](https://github.com/Alessandro114/scala-mcp-server) (Claude/ChatGPT integration)
 
 ---
@@ -69,4 +69,4 @@ Part of the **S.C.A.L.A.** open-source ecosystem:
 
 ## Data coverage
 
-S.C.A.L.A. Score holds about 249 million company records from public registries and open data in 264 countries (figure shown on [score.get-scala.com](https://score.get-scala.com), checked 03/11/2026). Financial fields such as revenue, employees or score are present only where the source publishes them, which is a minority of the records; always check each field before relying on it.
+S.C.A.L.A. Score holds about 249 million company records from public registries and open data in 264 countries (home page of [score.get-scala.com](https://score.get-scala.com): "Data from official registries in 264 countries · 249,353,619 companies", checked 03/11/2026). Not all records have financial data, and coverage varies by country: revenue, employees and score are shown only where the source publishes them. Always check each field before relying on it.
